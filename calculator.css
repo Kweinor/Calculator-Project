@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.calc-intro{
+    background-color: black;
+    padding: 4rem;
+    width: 280px;
+}
+.buttom-number, .operator{
+    padding-right: 1.5rem;
+    padding-top: 1.2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-size: large;
+}
+.btn{
+   padding-right: 1rem;
+   width: 200px;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   margin-bottom: 4px;
+}
+.symbols{
+    padding-right: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 1.2rem;
+    padding-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgba(226, 223, 223, 0.795);
+}
+#buttom-operator{
+    padding-right: 1.6rem;
+    padding-top: 1.2rem;
+    padding-left: 1.7rem;
+    padding-bottom: 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-size: large;
+}
+input{
+    width: 70%;
+    padding: 2rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 38px;
+    margin-bottom: 1rem;
+    text-align: right;
+}
+#symbols-operator{
+    padding-right: 1.3rem;
+    padding-top: 1rem;
+    padding-left: 1.3rem;
+    padding-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+#symbolAC{
+    padding-right: 1rem;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-size: large;
+}
+.operator{
+    background-color: rgb(255, 173, 20);
+    color: white;
+    font-weight: 600;
+}
+.buttom-number{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-weight: 600;
+}
+#clear-button{
+    padding-right: 1.2rem;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    padding-bottom: 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-size: large;
+}
